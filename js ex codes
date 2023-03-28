@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JavaScript Statements</h2>
+
+<p>A <b>JavaScript program</b> is a list of <b>statements</b> to be executed by a computer.</p>
+
+<p id="demo"></p>
+
+<script>
+var x, y, z;  // Declare 3 variables
+x = 5;    // Assign the value 5 to x
+y = 6;    // Assign the value 6 to y
+z = x + y;  // Assign the sum of x and y to z
+
+document.getElementById("demo").innerHTML =
+"The value of z is " + z + ".";
+</script>
+
+</body>
+</html>
+JavaScript Statements
+A JavaScript program is a list of statements to be executed by a computer.
+
+The value of z is 11.
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Numbers</h2>
+
+<p>Number can be written with or without decimals.</p>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = 10.50;
+</script>
+
+</body>
+</html>
+Number can be written with or without decimals.
+
+10.5
+
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Strings</h2>
+
+<p>Strings can be written with double or single quotes.</p>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = 'John Doe';
+</script>
+
+</body>
+</html>
+Strings can be written with double or single quotes.
+
+John Doe
+
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Variables</h2>
+
+<p>In this example, x is defined as a variable.
+Then, x is assigned the value of 6:</p>
+
+<p id="demo"></p>
+
+<script>
+let x;
+x = 6;
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html>
+In this example, x is defined as a variable. Then, x is assigned the value of 6:
+
+6
+
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Operators</h2>
+
+<p>JavaScript uses arithmetic operators to compute values (just like algebra).</p>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = (5 + 6) * 10;
+</script>
+
+</body>
+</html>
+JavaScript uses arithmetic operators to compute values (just like algebra).
+
+110
+
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Assigning JavaScript Values</h2>
+
+<p>In JavaScript the = operator is used to assign values to variables.</p>
+
+<p id="demo"></p>
+
+<script>
+let x, y;
+x = 5;
+y = 6;
+document.getElementById("demo").innerHTML = x + y;
+</script>
+
+</body>
+</html>
+In JavaScript the = operator is used to assign values to variables.
+
+11
+
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+<h2>The var Keyword Creates Variables</h2>
+<p id="demo"></p>
+<script>
+var x, y;
+x = 5 + 6;
+y = x * 10;
+document.getElementById("demo").innerHTML = y;
+</script>
+</body>
+</html>
+The var Keyword Creates Variables
+110
+
+
